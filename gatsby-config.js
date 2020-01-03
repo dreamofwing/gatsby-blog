@@ -3,7 +3,7 @@ module.exports = {
     title: `기록`,
     author: `Ui-jun Lim`,
     description: `Gatsby blog.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://dreamofwing.netlify.com/`,
   },
   plugins: [
     {
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-155211527-1`,
       },
     },
     `gatsby-plugin-feed`,
